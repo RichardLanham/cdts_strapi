@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "startTime": {
+      "type": "datetime"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "endTime": {
+      "type": "datetime"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "Calendar",
+        "Banner",
+        "Both"
+      ]
+    }
+  }
+}
