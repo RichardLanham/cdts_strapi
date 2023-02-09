@@ -16,10 +16,15 @@
         "images"
       ]
     },
-    "video": {
+    "box": {
       "type": "component",
       "repeatable": true,
       "component": "sections.large-video"
+    },
+    "richtext": {
+    "type":"component",
+    "repeatable": false,
+    "component": "elements.ckeditor"
     },
     "smallText": {
       "type": "string"
