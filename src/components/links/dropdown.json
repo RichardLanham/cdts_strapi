@@ -1,7 +1,8 @@
 {
   "collectionName": "components_links_dropdowns",
   "info": {
-    "displayName": "Dropdown"
+    "displayName": "Dropdown",
+    "description": ""
   },
   "options": {},
   "attributes": {

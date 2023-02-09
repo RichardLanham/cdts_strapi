@@ -3,7 +3,8 @@
   "info": {
     "name": "Hero",
     "displayName": "Hero",
-    "icon": "heading"
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,20 +18,24 @@
       "type": "string"
     },
     "picture": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
-    },
-    "smallTextWithLink": {
-      "type": "richtext"
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "buttons": {
       "type": "component",
       "repeatable": true,
       "component": "links.button-link"
+    },
+    "richText": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

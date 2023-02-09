@@ -22,6 +22,9 @@
     },
     "description": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

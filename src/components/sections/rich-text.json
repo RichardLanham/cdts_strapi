@@ -3,12 +3,17 @@
   "info": {
     "name": "RichText",
     "displayName": "Rich text",
-    "icon": "text-height"
+    "icon": "text-height",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
