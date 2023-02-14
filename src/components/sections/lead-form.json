@@ -21,6 +21,9 @@
     },
     "location": {
       "type": "string"
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
