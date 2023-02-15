@@ -15,7 +15,8 @@
   },
   "attributes": {
     "email": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "status": {
       "type": "enumeration",
@@ -33,6 +34,10 @@
     },
     "name": {
       "type": "string"
+    },
+    "blurb": {
+      "type": "string",
+      "maxLength": 1000
     }
   }
 }

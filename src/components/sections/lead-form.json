@@ -9,10 +9,14 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "default": "subscribe to our email"
     },
-    "emailPlaceholder": {
-      "type": "string"
+    "emailPlaceHolder": {
+      "type": "string",
+      "default": "email",
+      "required": true
     },
     "submitButton": {
       "type": "component",
@@ -22,8 +26,18 @@
     "location": {
       "type": "string"
     },
-    "phone": {
+    "phonePlaceHolder": {
+      "type": "string",
+      "default": "phone",
+      "required": true
+    },
+    "blurb": {
       "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string",
+      "default": "your name",
+      "required": true
     }
   }
 }
