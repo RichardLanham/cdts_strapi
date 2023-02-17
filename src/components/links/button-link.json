@@ -24,6 +24,13 @@
         "primary",
         "secondary"
       ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

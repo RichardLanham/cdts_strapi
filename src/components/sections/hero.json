@@ -33,9 +33,14 @@
     "richText": {
       "type": "customField",
       "options": {
-        "preset": "toolbar"
+        "preset": "toolbarBaloon"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.google-map"
     }
   }
 }

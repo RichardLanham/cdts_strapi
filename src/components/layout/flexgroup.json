@@ -26,6 +26,11 @@
     "repeatable": false,
     "component": "elements.ckeditor"
     },
+    "googleMap": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.google-map"
+    },
     "groupTitle": {
       "type": "string"
     }
