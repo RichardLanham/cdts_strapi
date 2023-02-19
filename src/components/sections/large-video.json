@@ -25,6 +25,16 @@
     "url": {
       "type": "string"
     },
+    "urlType": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "image",
+        "web"
+      ],
+      "required": false,
+      "default": "video"
+    },
     "facebook_bound": {
       "type": "boolean"
     },
@@ -39,6 +49,11 @@
       "type": "component",
       "repeatable": false,
       "component": "elements.google-map"
+    },
+    "playlist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.playlist"
     }
   }
 }
