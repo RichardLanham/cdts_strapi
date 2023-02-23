@@ -53,6 +53,7 @@
         "sections.rich-text",
         "sections.large-video",
         "sections.flex-group",
+        "sections.google-map",
         "sections.hero",
         "sections.lead-form"
       ],

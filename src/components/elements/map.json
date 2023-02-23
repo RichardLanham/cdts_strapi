@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_maps",
+  "info": {
+    "name": "map",
+    "displayName": "Google Map",
+    "icon": "traffic-light"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "markerText": {
+      "type": "string"
+    },
+    "markerImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    }
+  }
+}
