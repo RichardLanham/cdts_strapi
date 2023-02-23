@@ -12,9 +12,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "box": {
       "type": "component",
@@ -22,14 +20,14 @@
       "component": "sections.large-video"
     },
     "richtext": {
-    "type":"component",
-    "repeatable": false,
-    "component": "elements.ckeditor"
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.ckeditor"
     },
     "googleMap": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.google-map"
+      "component": "elements.map"
     },
     "playlist": {
       "type": "component",

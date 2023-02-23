@@ -39,7 +39,7 @@
     "googleMap": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.google-map"
+      "component": "elements.map"
     },
     "playlist": {
       "type": "component",

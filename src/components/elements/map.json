@@ -1,9 +1,8 @@
 {
   "collectionName": "components_elements_maps",
   "info": {
-    "name": "map",
     "displayName": "Google Map",
-    "icon": "traffic-light"
+    "description": ""
   },
   "options": {},
   "attributes": {
