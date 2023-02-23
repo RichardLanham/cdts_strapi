@@ -24,6 +24,13 @@
     },
     "lng": {
       "type": "float"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
