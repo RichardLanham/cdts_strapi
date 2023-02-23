@@ -27,6 +27,15 @@
         }
       }
     },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
+    },
     "metadata": {
       "type": "component",
       "repeatable": false,
@@ -41,31 +50,17 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero",
-        "sections.bottom-actions",
-        "sections.feature-columns-group",
-        "sections.feature-rows-group",
-        "sections.testimonials-group",
-        "sections.large-video",
         "sections.rich-text",
-        "sections.pricing",
-        "sections.lead-form",
-        "sections.flex-group"
+        "sections.large-video",
+        "sections.flex-group",
+        "sections.hero",
+        "sections.lead-form"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
-    },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "regex": "^$|^[a-zA-Z/-]+$"
     }
   }
 }
