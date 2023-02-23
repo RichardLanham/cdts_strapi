@@ -10,10 +10,10 @@
     "title": {
       "type": "string"
     },
-    "map": {
+    "gmap": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.map"
+      "component": "elements.gmap"
     }
   }
 }

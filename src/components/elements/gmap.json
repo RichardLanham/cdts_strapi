@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_elements_maps",
+  "collectionName": "components_elements_gmaps",
   "info": {
     "displayName": "Google Map",
     "description": ""
@@ -13,10 +13,12 @@
       "type": "string"
     },
     "markerImage": {
-      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "lat": {
       "type": "float"
@@ -30,6 +32,11 @@
         "preset": "toolbarBaloon"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "zoom": {
+      "type": "integer",
+      "required": false,
+      "default": 16
     }
   }
 }

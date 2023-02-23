@@ -21,9 +21,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "buttons": {
       "type": "component",
@@ -40,7 +38,7 @@
     "map": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.google-map"
+      "component": "elements.gmap"
     }
   }
 }

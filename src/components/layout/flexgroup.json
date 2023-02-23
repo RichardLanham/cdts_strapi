@@ -27,7 +27,7 @@
     "googleMap": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.map"
+      "component": "elements.gmap"
     },
     "playlist": {
       "type": "component",
