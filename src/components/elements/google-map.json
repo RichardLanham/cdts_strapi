@@ -14,9 +14,6 @@
     },
     "lng": {
       "type": "float"
-    },
-    "style": {
-      "type": "string"
     }
   }
 }

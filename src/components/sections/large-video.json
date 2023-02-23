@@ -18,25 +18,16 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "url": {
       "type": "string"
     },
     "urlType": {
       "type": "enumeration",
-      "enum": [
-        "video",
-        "image",
-        "web"
-      ],
+      "enum": ["video", "image", "web"],
       "required": false,
       "default": "video"
-    },
-    "facebook_bound": {
-      "type": "boolean"
     },
     "richtext": {
       "type": "customField",
