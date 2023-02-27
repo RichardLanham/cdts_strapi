@@ -10,7 +10,8 @@
   "attributes": {
     "url": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "/"
     },
     "newTab": {
       "type": "boolean",
