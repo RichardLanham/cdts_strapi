@@ -16,15 +16,15 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "lat": {
-      "type": "float"
+      "type": "float",
+      "default": "34.995602296642474"
     },
     "lng": {
-      "type": "float"
+      "type": "float",
+      "default": "-85.24814656512154"
     },
     "description": {
       "type": "customField",
