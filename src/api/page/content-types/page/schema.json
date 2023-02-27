@@ -55,7 +55,8 @@
         "sections.flex-group",
         "sections.google-map",
         "sections.hero",
-        "sections.lead-form"
+        "sections.lead-form",
+        "sections.feature-columns-group"
       ],
       "pluginOptions": {
         "i18n": {

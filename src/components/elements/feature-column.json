@@ -10,18 +10,26 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "text"
     },
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false
+    },
+    "homeTabType": {
+      "type": "enumeration",
+      "enum": ["button", "link", "image", "none"],
+      "default": "link"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-tab"
     }
   }
 }

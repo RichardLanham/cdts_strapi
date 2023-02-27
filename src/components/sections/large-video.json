@@ -36,11 +36,6 @@
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
-    "googleMap": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.gmap"
-    },
     "playlist": {
       "type": "component",
       "repeatable": false,

@@ -2,15 +2,32 @@
   "collectionName": "components_slices_feature_columns_groups",
   "info": {
     "name": "FeatureColumnsGroup",
-    "displayName": "Feature columns group",
+    "displayName": "Tabs",
     "icon": "star-of-life"
   },
   "options": {},
   "attributes": {
-    "features": {
+    "tabs": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "elements.feature-column"
+    },
+    "richtext": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.large-video"
+    },
+    "googleMap": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.gmap"
     }
   }
 }
