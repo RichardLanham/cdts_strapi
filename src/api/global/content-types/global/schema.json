@@ -38,9 +38,7 @@
       }
     },
     "favicon": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
       "pluginOptions": {
@@ -48,6 +46,9 @@
           "localized": true
         }
       }
+    },
+    "eventFillStart": {
+      "type": "date"
     },
     "notificationBanner": {
       "type": "component",
