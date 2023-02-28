@@ -2,7 +2,7 @@
   "collectionName": "components_slices_feature_columns_groups",
   "info": {
     "name": "FeatureColumnsGroup",
-    "displayName": "Tabs",
+    "displayName": "DeepTabs",
     "icon": "star-of-life"
   },
   "options": {},

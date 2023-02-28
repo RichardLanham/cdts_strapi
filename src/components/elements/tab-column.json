@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_slices_feature_columns",
+  "collectionName": "components_slices_tab_columns",
   "info": {
-    "name": "FeatureColumn",
-    "displayName": "Feature column",
+    "name": "TabColumn",
+    "displayName": "Tab column",
     "icon": "align-center",
     "description": ""
   },

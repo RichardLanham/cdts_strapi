@@ -13,7 +13,7 @@
     "links": {
       "type": "component",
       "repeatable": true,
-      "component": "links.link"
+      "component": "links.button-footer"
     }
   }
 }
