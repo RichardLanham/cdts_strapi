@@ -21,7 +21,7 @@
       "multiple": false,
       "required": false
     },
-    "homeTabType": {
+    "type": {
       "type": "enumeration",
       "enum": ["button", "link", "image", "none"],
       "default": "none"

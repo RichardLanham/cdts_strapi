@@ -9,6 +9,7 @@
   "options": {},
   "attributes": {
     "slug": {
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -30,22 +31,10 @@
       "type": "media",
       "multiple": false
     },
-    "richtext": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbarBaloon"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
-    },
-    "video": {
+    "inputs": {
       "type": "component",
-      "repeatable": false,
-      "component": "sections.large-video"
-    },
-    "googleMap": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.gmap"
+      "repeatable": true,
+      "component": "sections.inputs"
     }
   }
 }

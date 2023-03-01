@@ -52,6 +52,7 @@
       "components": [
         "sections.rich-text",
         "sections.tabs",
+        "sections.inputs",
         "sections.large-video",
         "sections.flex-group",
         "sections.google-map",

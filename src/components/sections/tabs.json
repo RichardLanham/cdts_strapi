@@ -33,22 +33,10 @@
       "repeatable": true,
       "component": "links.button-link"
     },
-    "richtext": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbarBaloon"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
-    },
-    "video": {
+    "inputs": {
       "type": "component",
-      "repeatable": false,
-      "component": "sections.large-video"
-    },
-    "googleMap": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.gmap"
+      "repeatable": true,
+      "component": "sections.inputs"
     }
   }
 }
