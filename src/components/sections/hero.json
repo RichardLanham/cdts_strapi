@@ -23,19 +23,17 @@
       "required": false,
       "allowedTypes": ["images"]
     },
-    "buttons": {
+    "button": {
       "type": "component",
-      "repeatable": true,
-      "component": "links.button-link"
+      "repeatable": false,
+      "component": "links.button-hero"
     },
-    "richText": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbarBaloon"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.rich-text"
     },
-    "map": {
+    "googleMap": {
       "type": "component",
       "repeatable": false,
       "component": "elements.gmap"

@@ -20,15 +20,10 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ]
+      "enum": ["primary", "secondary"]
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false
     }
