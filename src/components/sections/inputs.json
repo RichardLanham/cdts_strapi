@@ -36,6 +36,11 @@
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.hero"
+    },
     "playlist": {
       "type": "component",
       "repeatable": false,
