@@ -15,38 +15,59 @@
     "name": {
       "type": "string"
     },
+    "startTime": {
+      "type": "datetime"
+    },
+    "endTime": {
+      "type": "datetime"
+    },
     "body": {
       "type": "richtext"
     },
-    "startTime": {
-      "type": "datetime"
+    "note": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    },
+    "street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "web_url": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean",
+      "default": false
     },
     "image": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "endTime": {
-      "type": "datetime"
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "link": {
       "type": "component",
       "repeatable": true,
       "component": "links.link"
-    },
-    "display": {
-      "type": "enumeration",
-      "enum": [
-        "Calendar",
-        "Banner",
-        "Both"
-      ]
     }
   }
 }

@@ -2,9 +2,9 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.3",
     "@strapi/plugin-graphql": "^4.0.0",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-i18n": "4.7.1",
+    "@strapi/plugin-users-permissions": "4.7.1",
+    "@strapi/strapi": "4.7.1",
     "lodash.set": "^4.3.2",
     "pg": "8.6.0"
   },
