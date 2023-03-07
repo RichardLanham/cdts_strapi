@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "startTime": {
       "type": "datetime"
@@ -48,6 +49,9 @@
     "zip": {
       "type": "string"
     },
+    "geocode": {
+      "type": "text"
+    },
     "image_url": {
       "type": "string"
     },
@@ -62,7 +66,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "link": {
       "type": "component",
