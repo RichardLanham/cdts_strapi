@@ -13,8 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     "startTime": {
       "type": "datetime"
@@ -66,12 +65,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "link": {
       "type": "component",
