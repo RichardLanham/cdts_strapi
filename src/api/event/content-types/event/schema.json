@@ -57,6 +57,12 @@
     "web_url": {
       "type": "string"
     },
+    "link_label": {
+      "type": "string"
+    },
+    "link_description": {
+      "type": "string"
+    },
     "approved": {
       "type": "boolean",
       "default": false
