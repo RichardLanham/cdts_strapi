@@ -19,7 +19,7 @@
     },
     "text": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "string"
