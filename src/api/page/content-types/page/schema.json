@@ -40,7 +40,7 @@
       "type": "component",
       "repeatable": false,
       "component": "meta.metadata",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
